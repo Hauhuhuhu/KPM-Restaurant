@@ -141,6 +141,7 @@ html {
 }
 #header-click:checked ~ .header_nav-mobile {
     transform: translateX(0);
+    opacity: 1;
 }
 #header-click:checked ~ .overlay {
     display: block;
@@ -163,6 +164,8 @@ html {
     max-width: 100%;
     background-color: #fff;
     transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.1s;
 }
 .header_nav-mobile-close {
     position: absolute;
@@ -192,12 +195,11 @@ html {
     position: relative;
     margin-top: 60px;
 }
-.container_one-img {
+.container_one-img img {
     width: 100%;
     height: 700px;
-    background-image: url(/assets/img/banh_ngot-3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url(/assets/img/banh_ngot-3.jpg); */
+    object-fit: cover;
 }
 .container_one-content {
     position: absolute;
