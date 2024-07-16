@@ -1,0 +1,118 @@
+/* mobile - tablet */
+@media (max-width: 1024px) {
+
+}
+/* mobile */
+@media (max-width: 739px) {
+    .mobile-icon {
+        display: block;
+    }
+    .header_nav-list {
+        display: none;
+    }
+    .header_nav {
+        padding: 0 20px;
+    }
+    .container_one-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .container_one-img {
+        height: 500px;
+    }
+    /* .col-big {
+        padding: unset;
+    } */
+    .container_two-content {
+        padding: 0 40px;
+    }
+    .container_two-container-img {
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .container_three-right {
+        margin: auto;
+    }
+    .container_four-block-img  {
+        height: 400px;
+    }
+    .row.row-m {
+        margin-left: 0px;
+        margin-right: 0px;
+        /* padding-left: 8px; */
+    }
+    .wide .row.row-m {
+        margin: 0;
+    }
+    .container_five {
+        padding: 60px 20px 80px 20px;
+    }
+    .container_five .row {
+        margin-left: 0;
+    }
+    .container_five-right h1 {
+        padding-top: 20px;
+    }
+    .container_six {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .container_six .row {
+        margin-left: 0;
+    }
+    .container_six-right img {
+        margin: unset;
+        margin-top: 20px;
+    }
+    .container_eight {
+        padding: 40px 20px 60px 28px;
+    }
+    .container_eight-right-item-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .header .grid.wide {
+        width: unset;
+        margin: 0 20px;
+    }
+    .header_nav-item {
+        padding: 0 8px;
+    }
+    .header__search-input {
+        width: 100px;
+    }
+    /* .row-big {
+        margin: unset;
+    }
+    .col-big {
+        padding: unset;
+    } */
+
+    .container_two-container-img {
+        margin-top: 40px;
+    }
+    .container_two-container-img-block {
+        float: unset;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container_five-left img {
+        width: unset;
+    }
+    .container_five-right {
+        margin-top: 40px;
+    }
+
+    .container_six-right img {
+        margin: unset;
+        margin-top: 40px;
+    }
+
+    .container_eight-right-header {
+        margin-top: 20px;
+    }
+}
