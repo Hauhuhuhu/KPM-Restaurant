@@ -9,10 +9,12 @@ html {
     font-family: "Oswald", sans-serif;
 }
 * {
-    max-width: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.container {
+    overflow: hidden;
 }
 .btn {
     font-size: 1.8rem;
@@ -227,19 +229,11 @@ html {
 .container_two {
     padding: 80px 0;
 }
-/* .row-big {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.col-big {
-    padding-left: 50px;
-    padding-right: 50px;
-} */
 .container_two-container-img-block {
     display: flex;
-    float: right;
-    height: 280px;
-    width: 230px;
+    /* float: right; */
+    height: 300px;
+    width: 100%;
     margin-bottom: 30px;
     border-radius: 40px;
     overflow: hidden;
@@ -352,7 +346,6 @@ html {
     color: #fff;
 }
 .container_five-left img {
-    width: 560px;
     border-radius: 30px;
 }
 .container_five-right {
@@ -402,7 +395,8 @@ html {
 }
 .container_six-right img {
     border-radius: 20px;
-    margin-left: 20px;
+    object-fit: cover;
+    width: 100%;
 }
 
 /* container-7 */
