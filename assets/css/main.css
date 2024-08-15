@@ -283,7 +283,7 @@ html {
 .container_four {
     padding: 60px 0;
 }
-.container_four-block h1 {
+.container_four-header {
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -327,7 +327,7 @@ html {
     display: flex;
     flex-direction: column;
 }
-.container_five-left h1 {
+.container_five-left-header {
     padding: 0 0 40px 0;
     font-size: 6rem;
     font-family: "Sriracha", cursive;
@@ -343,7 +343,7 @@ html {
     margin: auto;
     color: #fff;
 }
-.container_five-right h1 {
+.container_five-right-header {
     font-size: 3rem;
     letter-spacing: 0.05rem;
 }
@@ -371,7 +371,7 @@ html {
     margin: auto;
     color: var(--text-color);
 }
-.container_six-left h1 {
+.container_six-left h2 {
     font-size: 3rem;
     
 }
@@ -395,9 +395,6 @@ html {
     color: #fff;
     padding-top: 60px;
     padding-bottom: 80px;
-}
-.container_seven-body {
-    padding: 0 50px;
 }
 .container_seven h2 {
     font-size: 3.4rem;

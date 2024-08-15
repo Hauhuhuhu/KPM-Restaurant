@@ -1,3 +1,7 @@
+.container_five-left img {
+    width: 100%;
+}
+
 /* mobile - tablet */
 @media (max-width: 1024px) {
 
@@ -17,6 +21,9 @@
         width: 100%;
         padding: 0 20px;
     }
+    .container_one-content-text1 {
+        font-size: 5rem;
+    }
     .container_one-img img {
         height: 500px;
     }
@@ -27,6 +34,7 @@
     .container_four,
     .container_five,
     .container_six,
+    .container_seven,
     .container_eight {
         padding-right: 30px;
         padding-left: 30px;
