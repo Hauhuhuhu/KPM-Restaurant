@@ -17,6 +17,9 @@
         width: 100%;
         padding: 0 20px;
     }
+    .container_one-content-text1 {
+        font-size: 5rem;
+    }
     .container_one-img img {
         height: 500px;
     }
